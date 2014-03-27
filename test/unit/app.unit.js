@@ -7,5 +7,10 @@ define(['app'], function (app) {
     it('has a name', function () {
       expect(app.name).to.eq('app')
     })
+
+    it('broke', function () {
+      expect(app.notExist).to.be.ok
+      // expect(app.notExist).to.be.not.ok // this one will pass
+    })
   })
 })

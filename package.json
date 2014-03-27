@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "npm install && bower install && gulp dev",
-    "test": "karma start",
+    "test": "npm install && bower install && karma start",
     "build": "npm install && bower install && gulp"
   }
 }
