@@ -1,0 +1,12 @@
+{
+  "name": "karma-requirejs-seed",
+  "description": "A sample project",
+  "repository": "no repo for now",
+  "dependencies": {
+    "gulp": "^3.5.6",
+    "gulp-bower-files": "^0.1.12"
+  },
+  "scripts": {
+    "dev": "npm install && bower install && gulp dev"
+  }
+}
